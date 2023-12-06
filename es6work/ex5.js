@@ -17,3 +17,8 @@ console.log("합계 : " + sum);
 }
 
 fsum(arr3);
+
+function func3(a,b,c,d,e) {
+    console.log(a,b,c,d,e);
+}
+func3(...arr3);
