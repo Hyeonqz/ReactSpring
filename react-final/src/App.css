@@ -1,0 +1,57 @@
+.App {
+  text-align: center;
+}
+
+div.title {
+  position :absolute;
+  top : 30px;
+  left:350px;
+  width:800px;
+  height:100px;
+}
+
+div.menu {
+  position :absolute;
+  top : 220px;
+  left: 250px;
+  width:1100px;
+  height:150px;
+}
+
+div.main {
+  position :absolute;
+  top : 400px;
+  left: 250px;
+  width:1100px;
+  height:800px;
+}
+
+div.info {
+  position :absolute;
+  top : 280px;
+  left: 30px;
+  width:200px;
+  height:300px;
+}
+
+.menu li {
+  list-style : none;
+  font-size : 20px;
+  float:left;
+  width:120px;
+  height:50px;
+  line-height:50px;
+  margin-left: 20px;
+  text-align:center;
+  background-color: wheat;
+  border-radius:20px;
+  box-shadow: 3px 3px 3px 10px;
+  margin-bottom: 10px;
+}
+a{
+  color:black;
+  text-decoration:none;
+}
+a:hover {
+  color:pink;
+}
