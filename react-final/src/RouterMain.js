@@ -22,8 +22,6 @@ function RouterMain(props) {
                     <Route path='/shop/form' element={<ShopForm/>}/>
                     <Route path='/shop/detail/:num' element={<ShopDetail/>}/>
 
-
-
                     <Route path='/board/list' element={<Board/>}/>
                     <Route path='/member/form' element={<Member/>}/>
                     <Route path='/login' element={<Login/>}/>
